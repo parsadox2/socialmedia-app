@@ -1,0 +1,50 @@
+
+*{
+  transition: ease-in-out 0.5s;
+}
+.home{
+  background-image: url(../vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main{
+  display: inline-block;
+  backdrop-filter:  blur(300px);
+  border: solid 1px  #131313;
+  border-radius: 10px;
+  text-align: center;
+}
+.f{
+  padding: 20px 15px;
+  border-radius: 20px;
+  font-family: parastoo;
+}
+.f label{
+  display: block;
+  text-align: center;
+  font-family: parastoo;
+}
+.f input {
+  text-align: center;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 4px;
+  font-family: parastoo;
+}
+
+@font-face {
+  font-family: parastoo;
+  src: url(../fonts/parastoo-font-v1.0.0-alpha5/web/Parastoo-Bold.ttf);
+}
+.f button{
+  border-radius: 9px;
+  background-color: rgb(110, 191, 205);
+  border: none;
+  padding: 10px;
+  font-family: parastoo;
+  cursor: pointer;
+}
